@@ -1,5 +1,5 @@
 # Cronometro
 
-Irei criar um cronômetro, com botão de reset, parar e de iniciar...
+Irei criar um cronômetro, com botão de reiniciar, de parar e de iniciar...
 
 espero que gostem.
