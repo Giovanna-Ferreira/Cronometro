@@ -28,10 +28,28 @@ body{
     text-align: center;
     font-size: 50px;
     font-weight: 500;
+    color: #333;
 }
 .time span.colon {
     width: 10px;
 }
 .time span.ms-colon, .time span.miliseg {
     color:#003242;
+}
+.container .buttons{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.buttons button{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    color: #003242;
+    background: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.09);
 }
