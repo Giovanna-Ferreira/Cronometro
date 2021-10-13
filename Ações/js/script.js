@@ -8,10 +8,13 @@ resetBtn.addEventListener("click", reset);
 
 function start() {
     startBtn.classList.add("active");
+    startBtn.classList.remove("stopActive");
 }
 function stop() {
-    stopBtn.classList.remove("active");
+    startBtn.classList.remove("active");
+    stopBtn.classList.add("stopActive");
 }
 function reset() {
-    resetBtn.classList.remove("active");
+    startBtn.classList.remove("active");
+    stopBtn.classList.add("stopActive");
 }
