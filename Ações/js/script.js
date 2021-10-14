@@ -36,7 +36,7 @@ function iniciar() {
         
         putValue();
 
-    },100); //1000ms = 1s
+    },10); //1000ms = 1s
 
 }
 
