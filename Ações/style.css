@@ -21,7 +21,8 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.09);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.9);
+    padding: 0 10px;
 }
 .container .tempo span{
     width: 100px;
@@ -30,11 +31,11 @@ body{
     font-weight: 500;
     color: #333;
 }
-.time span.colon {
+.tempo span.colon {
     width: 10px;
 }
-.time span.ms-colon, .time span.miliseg {
-    color:#003242;
+.tempo span.ms-colon, .tempo span.miliseg {
+    color:#001FC1;
 }
 .container .buttons{
     text-align: center;
@@ -45,7 +46,8 @@ body{
     padding: 6px 16px;
     outline: none;
     border: none;
-    color: #003242;
+    margin: 0 5px;
+    color: #001FC1;
     background: #fff;
     font-size: 19px;
     font-weight: 500;
