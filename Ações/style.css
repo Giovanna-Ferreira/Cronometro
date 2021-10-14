@@ -34,7 +34,8 @@ body{
 .tempo span.colon {
     width: 10px;
 }
-.tempo span.ms-colon, .tempo span.miliseg {
+.tempo span.ms-colon,
+.tempo span.miliseg{
     color:#001FC1;
 }
 .container .buttons{
