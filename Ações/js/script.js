@@ -8,7 +8,7 @@ resetBtn.addEventListener("click", reiniciar);
 
 function iniciar() {
     startBtn.classList.add("active");
-    startBtn.classList.remove("stopActive");
+    stopBtn.classList.remove("stopActive");
 }
 function parar() {
     startBtn.classList.remove("active");
@@ -16,5 +16,5 @@ function parar() {
 }
 function reiniciar() {
     startBtn.classList.remove("active");
-    stopBtn.classList.add("stopActive");
+    stopBtn.classList.remove("stopActive");
 }
