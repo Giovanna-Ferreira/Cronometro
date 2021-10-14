@@ -1,5 +1,5 @@
-let hr = min =seg = ms = "0" + 0, 
-startTimer;
+let hr = min = seg = ms = "0" + 0, 
+ startTimer;
 
 const startBtn = document.querySelector(".iniciar"),
 stopBtn = document.querySelector(".parar"),
@@ -17,10 +17,11 @@ function iniciar() {
         ms++
         ms = ms < 10 ? "0" + ms : ms;
 
-        if(ms == 10){
+        if(ms == 100){
             seg++;
             seg = seg < 10 ? "0" + seg : seg;
             ms = "0" + 0;
+            console.log(ms)
         }
         if(seg == 60){
             min++;
