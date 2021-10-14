@@ -13,11 +13,11 @@ function iniciar() {
     startBtn.classList.add("active");
     stopBtn.classList.remove("stopActive");
 
-    startTimer = setInterval(() => { 
+    startTimer = setInterval(()=>{ 
         ms++
         ms = ms < 10 ? "0" + ms : ms;
 
-        if(ms == 100){
+        if(ms == 10){
             seg++;
             seg = seg < 10 ? "0" + seg : seg;
             ms = "0" + 0;
