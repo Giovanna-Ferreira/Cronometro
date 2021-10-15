@@ -1,0 +1,3 @@
+# Cronometro
+
+## Tentei criar um Cronômetro, espero que gostem...
